@@ -1,0 +1,51 @@
+body {
+    padding-top: 70px;
+}
+
+.collection{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d97444;
+}
+
+.item{
+    margin: 5px 0;
+    padding: 3px;
+    background-color: #ffecae;
+    border-radius: 5px;
+}
+
+.itemHead h2{
+    margin: 2px;
+}
+
+.cr-bucket {
+    margin: 0 auto;
+    float: none;
+}
+
+#genderInDiv p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #AAA;
+}
+@media (min-width:1200px){
+    #genderInDiv {
+        width: 40.66%;
+        margin-right: 5px;
+    }
+
+    #addGenderDiv {
+        width: 25%;
+    }
+}
+
+.form-control-feedback {
+    margin: 0 15px;
+}
+
+.tooltip-inner {
+    white-space:pre-wrap;
+    max-width: none;
+}
